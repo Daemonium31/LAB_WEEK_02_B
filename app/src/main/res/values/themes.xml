@@ -1,9 +1,37 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.LAB_WEEK_02_B" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+    <!-- Base application theme -->
+    <style name="Base.Theme.LAB_WEEK_02_B"
+        parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize here -->
     </style>
 
     <style name="Theme.LAB_WEEK_02_B" parent="Base.Theme.LAB_WEEK_02_B" />
+
+    <!-- Custom styles -->
+    <style name="text_input"
+        parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:layout_margin">8dp</item>
+    </style>
+
+    <style name="button">
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:layout_gravity">center</item>
+        <!-- Material3 friendly -->
+        <item name="android:textColor">?attr/colorOnPrimary</item>
+        <item name="android:backgroundTint">?attr/colorPrimary</item>
+    </style>
+
+    <style name="text_display">
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+    </style>
+
+
+    <style name="screen_margin">
+        <item name="android:layout_margin">12dp</item>
+    </style>
+
 </resources>
